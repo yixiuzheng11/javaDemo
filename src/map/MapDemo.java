@@ -28,6 +28,5 @@ public class MapDemo {
 			//报错：java.util.ConcurrentModificationException， 遍历时先删除，导致迭代器记录的数量与集合当前数量不一致，报错
 			System.out.println(iterator2.next()+"	");
 		}
-		
 	}
 }
